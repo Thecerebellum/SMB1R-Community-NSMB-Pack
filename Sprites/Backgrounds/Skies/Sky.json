@@ -1,0 +1,316 @@
+{
+	"properties": {
+		"sky_scroll_speed": 0
+	},
+	"top_edge_enabled": false
+,
+	"variations": {
+		"Day": {
+			"default": {
+				"source": "daySky.png",
+				"properties": { "sky_scroll_speed": 0 }
+			},
+			"Overworld": {
+				"MainRoom": { "source": "OverworldSky.png" },
+				"CoinHeaven": { "source": "DaySky.png" },
+				"Level3": { "source": "AthleticSky.png" }
+			},
+			"Pipeland": {
+				"source": "DaySky.png"
+			},
+			"Skyland": {
+				"source": "DaySky.png"
+			},
+			"Airship": {
+				"source": "DaySky.png"
+			},
+			"Underwater": {
+				"source": "UnderwaterSky.png"
+			},
+			"CastleWater": {
+				"source": "UnderwatercastleSky.png"
+			},
+			"Bonus": {
+				"source": "BonusSky.png"
+			},
+			"Mountain": {
+				"source": "MountainSky.png"
+			},
+			"Jungle": {
+				"source": "DaySky.png"
+			},
+			"Castle": {
+				"World1": { "source": "CastleSky.png" },
+				"World8": { "source": "FinalCastleSky.png" },
+				"World13": { "source": "FinalCastleSky.png" }
+			},
+			"Beach": {
+				"SMB1": { "source": "BeachSky.png" }
+			},
+			"Snow": {
+				"SMB1": { "source": "SnowSky.png" },
+				"SMBLL": { "source": "SnowSkyLL.png" }
+			},
+			"Desert": {
+				"SMB1": { "source": "DesertSky.png" },
+				"SMBLL": { "source": "DesertSkyLL.png" },
+				"CoinHeaven": { "source": "DesertCoinHeaven.png" }
+			},
+			"Autumn": {
+				"SMB1": { "source": "AutumnSky.png" }
+			},
+			"Volcano": {
+				"source": "VolcanoSky.png"
+			},
+			"Underground": {
+				"SMB1": {
+					"World1": {
+						"source": "UndergroundSky.png"
+					},
+					"World2": {
+						"source": "UndergroundSky.png"
+					},
+					"World5": {
+						"source": "UndergroundSky.png"
+					}
+				},
+				"SMBLL": {
+					"World1": {
+						"source": "UndergroundSkyLL.png"
+					},
+					"World2": {
+						"source": "UndergroundSkyLL.png"
+					},
+					"World5": {
+						"source": "UndergroundSkyLL.png"
+					},
+					"World13": {
+						"source": "VolcanoUnderground.png",
+						"animations": {
+							"default": {
+								"frames": [
+									[ 0, 0, 512, 512 ],
+									[ 512, 0, 512, 512 ],
+									[ 1024, 0, 512, 512 ],
+									[ 1536, 0, 512, 512 ],
+									[ 2048, 0, 512, 512 ],
+									[ 2560, 0, 512, 512 ],
+									[ 3072, 0, 512, 512 ],
+									[ 3584, 0, 512, 512 ]
+								],
+								"speed": 7.0,
+								"loop": true
+							
+						}
+					}
+				}
+				},
+				"SMBS": {
+					"World1": {
+						"source": "UndergroundSky.png"
+					},
+					"World2": {
+						"source": "UndergroundSky.png"
+					},
+					"World5": {
+						"source": "UndergroundSky.png"
+					}
+				}
+			},
+			"GhostHouse": {
+				"source": "GhostHouseSky.png"
+			},
+
+			"Space": {
+				"source": "SpaceStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ],
+							[ 512, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			}
+		},
+		"Night": {
+			"default": {
+				"source": "NightStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Pipeland": {
+				"source": "NightStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Space": {
+				"source": "SpaceStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ],
+							[ 512, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Jungle": {
+				"source": "JungleSky.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Overworld": {
+				"MainRoom": { "source": "OverworldNight.png" },
+				"CoinHeaven": { "source": "NightStars.png" }
+			},
+			"CastleWater": {
+				"source": "CastleWaterNight.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Underwater": {
+				"source": "UnderWaterNight.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Desert": {
+				"source": "DesertnightStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Castle": {
+				"source": "CastleSky.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"GhostHouse": {
+				"source": "GhostHouseSky.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Autumn": {
+				"source": "AutumnnightStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Volcano": {
+				"source": "VolcanoSkyNight.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Mountain": {
+				"source": "MountainNight.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			},
+			"Snow": {
+				"source": "SnowNightStars.png",
+				"properties": { "sky_scroll_speed": 0 },
+				"animations": {
+					"default": {
+						"frames": [
+							[ 0, 0, 512, 512 ]
+						],
+						"speed": 5.0,
+						"loop": true
+					}
+				}
+			}
+		}
+		}
+			}

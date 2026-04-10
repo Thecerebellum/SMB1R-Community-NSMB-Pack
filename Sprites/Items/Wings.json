@@ -1,0 +1,33 @@
+{
+	"animations": {
+		"Flap": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					12.0,
+					16.0
+				],
+				[
+					13.0,
+					0.0,
+					9.0,
+					16.0
+				]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [ [ 0, 0, 12, 16 ] ],
+			"speed": 10.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "Wings.png",
+			"rect": [ 0, 0, 64, 16 ]
+		}
+	}
+}

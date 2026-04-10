@@ -1,0 +1,116 @@
+{
+  "variations": {
+    "default": {
+      "Day": {
+        "Level1": {
+          "source": "Overworld.png"
+        },
+        "Level3": {
+          "source": "Sky.png"
+        }
+      },
+      "Night": {
+        "Level1": {
+          "source": "Overworld.png"
+        },
+        "Level3": {
+          "source": "Overworld.png"
+        }
+      }
+    },
+    "Underground": {
+      "SMB1": {
+        "World1": {
+          "source": "Underground.png"
+        },
+        "World2": {
+          "source": "UndergroundDesert.png"
+        },
+        "World5": {
+          "source": "UndergroundDesert.png"
+        }
+      },
+      "SMBLL": {
+        "World1": {
+          "source": "Underground.png"
+        },
+        "World2": {
+          "source": "UndergroundDesert.png"
+        },
+        "World5": {
+          "source": "UndergroundDesert.png"
+        },
+        "World13": {
+          "source": "UndergroundVolcano.png"
+        }
+      },
+      "SMBS": {
+        "World1": {
+          "source": "Underground.png"
+        },
+        "World2": {
+          "source": "Underground.png"
+        },
+        "World5": {
+          "source": "Underground.png"
+        }
+      }
+    },
+    "Desert": {
+      "Day": {
+        "Level1": {
+          "source": "Desert.png"
+        },
+        "Level3": {
+          "source": "DesertAthletic.png"
+        }
+      },
+      "Night": {
+        "Level1": {
+          "source": "Desert.png"
+        },
+        "Level3": {
+          "source": "DesertAthletic.png"
+        }
+      }
+    },
+    "Snow": {
+      "SMB1": {
+        "Day": { "source": "Snow.png" },
+        "Night": { "source": "Snow.png" }
+      }
+    },
+    "Jungle": { "source": "Jungle.png" },
+    "Beach": { "source": "Beach.png" },
+    "Garden": { "source": "Garden.png" },
+    "Mountain": {
+      "Day": {
+        "Level1": {
+          "source": "Mountain.png"
+        },
+        "Level3": {
+          "source": "Mountain.png"
+        }
+      },
+      "Night": {
+        "Level1": {
+          "source": "Mountain.png"
+        },
+        "Level3": {
+          "source": "Beach.png"
+        }
+      }
+    },
+    "Skyland": { "source": "Sky.png" },
+    "Autumn": { "source": "Autumn.png" },
+    "Pipeland": { "source": "PipeLand.png" },
+    "Space": { "source": "Space.png" },
+    "Underwater": { "source": "Underwater.png" },
+    "Volcano": { "source": "Volcano.png" },
+    "GhostHouse": { "source": "GhostHouse.png" },
+    "Castle": { "source": "Castle.png" },
+    "CastleWater": { "source": "CastleWater.png" },
+    "Airship": { "source": "Airship.png" },
+    "Bonus": { "source": "Bonus.png" }
+  }
+  }

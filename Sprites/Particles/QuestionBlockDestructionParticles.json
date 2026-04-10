@@ -1,0 +1,26 @@
+{
+	"variations": {
+		"default": {
+			"source": "QuestionBlockDestructionParticles.png",
+			"rect": [ 0, 0, 16, 16 ]
+		},
+		"Underground": {
+			"source": "QuestionBlockDestructionParticles.png",
+			"rect": [ 16, 0, 16, 16 ]
+		},
+		"GhostHouse": { "link": "Castle" },
+		"Castle": {
+			"source": "QuestionBlockDestructionParticles.png",
+			"rect": [ 0, 16, 16, 16 ]
+		},
+		"Snow": { "link": "Underground" },
+		"Space": {
+			"source": "QuestionBlockDestructionParticles.png",
+			"rect": [ 0, 32, 16, 16 ]
+		},
+		"Volcano": {
+			"source": "QuestionBlockDestructionParticles.png",
+			"rect": [ 16, 15, 16, 16 ]
+		}
+	}
+}

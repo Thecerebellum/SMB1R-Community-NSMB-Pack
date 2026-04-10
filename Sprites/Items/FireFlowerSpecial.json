@@ -1,0 +1,27 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					14.0,
+					16.0
+				]
+			],
+			"speed": 15.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "FireFlower.png",
+			"rect": [
+				0.0,
+				0.0,
+				64.0,
+				16.0
+			]
+		}
+	}
+}

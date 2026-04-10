@@ -1,0 +1,9 @@
+{
+    "properties": {},
+    "animations": {},
+    "variations": {
+        "default": {
+            "source": "FireballExplosion.png"
+        }
+    }
+}

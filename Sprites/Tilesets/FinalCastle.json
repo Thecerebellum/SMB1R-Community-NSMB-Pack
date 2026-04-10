@@ -1,0 +1,17 @@
+{
+	"properties":
+	{
+		"use_sprite": true,
+		"show_walls": false
+	},
+	"variations":
+	{
+		"default":
+		{
+			"source": "FinalCastleSprite.png",
+			"rect": [0, 0, 320, 176]
+		},
+		"Snow": {"source": "FinalCastleSprite.png"},
+		"Desert": {"source": "FinalCastleSprite.png"}
+	}
+}

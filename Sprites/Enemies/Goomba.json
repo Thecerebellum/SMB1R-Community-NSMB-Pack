@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "can_turn": true
+  },
+
+  "animations": {
+    "Walk": {
+      "frames": [
+        [0, 0, 19, 19],
+        [19, 0, 19, 19],
+        [38, 0, 19, 19],
+        [57, 0, 19, 19],
+        [76, 0, 19, 19],
+        [95, 0, 19, 19],
+        [114, 0, 19, 19],
+        [133, 0, 19, 19]
+      ],
+      "speed": 10,
+      "loop": true
+    },
+    "Stomped": {
+      "frames": [
+        [152, 0, 19, 19]
+      ],
+      "speed": 5,
+      "loop": true
+    }
+  },
+
+  "variations": {
+    "default": {
+      "source": "Goomba.png",
+      "rect": [0, 0, 171, 19]
+    }
+  }
+}

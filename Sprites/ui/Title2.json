@@ -1,0 +1,19 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					176.0,
+					47.0
+				]
+			],
+			"speed": 10.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {"source": "Title2.png", "rect": [0, 0, 528, 40]}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"variations": {
+		"World1": { "source": "CastleComplete.mp3" },
+		"World8": { "source": "FinalCastleComplete.mp3" },
+		"World13": { "source": "FinalCastleComplete.mp3" }
+	}
+}

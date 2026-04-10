@@ -1,0 +1,16 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 24, 23]
+			],
+			"speed": 10.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"SMB1": {
+			"default": {"source": "BridgeAxe.png", "rect": [0, 0, 48, 23]}
+		}
+	}
+}

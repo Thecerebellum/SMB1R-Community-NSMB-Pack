@@ -1,0 +1,45 @@
+{
+	"variations": {
+		"default": {
+			"SMB1": {
+				"Day": { "source": "GardenBush.png" },
+				"Night": { "source": "GardenBushNight.png" }
+			}
+		},
+		"Space": {
+			"SMB1": {
+				"Day": { "source": "SpaceBush.png" },
+				"Night": { "source": "SpaceBush.png" }
+			}
+		},
+
+		"Jungle": {
+			"SMB1": { "source": "JungleBush.png" },
+			"SMBLL": { "source": "JungleBush.png" }
+		},
+		"Snow": {
+			"SMB1": {
+				"Day": { "source": "SnowBush.png" },
+				"Night": { "source": "SnowBushNight.png" }
+			}
+		},
+		"Autumn": {
+			"SMB1": {
+				"Day": { "source": "AutumnBush.png" },
+				"Night": { "source": "AutumnBushNight.png" }
+			}
+		},
+		"Castle": {
+			"SMB1": {
+				"Day": { "source": "CastleBush.png" },
+				"Night": { "source": "CastleBush.png" }
+			}
+		},
+		"Airship": {
+			"SMB1": {
+				"Day": { "source": "AirshipBush.png" },
+				"Night": { "source": "AirshipBushNight.png" }
+			}
+		}
+	}
+}

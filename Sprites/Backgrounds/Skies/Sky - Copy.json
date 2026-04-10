@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "sky_scroll_speed": 0
+    },
+  "variations": {
+    "default": {
+      "source": "DaySky.png",
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Overworld": {
+      "Day": { "source": "Overworldsky.png" },
+      "Night": { "source": "Overworldsky.png" }
+    },
+    "Beach": {
+      "source": "BeachSky.png",
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Desert": {
+      "source": "DesertSky.png",
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Underground": {
+      "SMB1": { "source": "UndergroundSky.png" },
+      "SMBLL": { "source": "UndergroundSky.png" }
+    },
+    "Castle": {
+      "source": "CastleSky.png",
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Undergrou": {
+      "SMB1": { "source": "UndergroundSky.png" },
+      "SMBLL": { "source": "UndergroundSky.png" }
+    },
+    "SMBLL": {
+      "source": "Jungle.png",
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Snow": {
+      "SMB1": { "source": "SnowSky.png" },
+      "SMBLL": { "source": "SnowSky.png" },
+      "rect": [ 0, 0, 512, 512 ]
+    },
+    "Autumn": {
+      "SMB1": { "source": "AutumnSky.png" },
+      "SMBLL": { "source": "AutumnSkyLL.png" }
+    }
+  }
+
+    }
+  }

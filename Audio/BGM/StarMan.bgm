@@ -1,0 +1,4 @@
+{
+	"Normal": {"source": "StarMan.mp3", "loop": 8.45},
+	"Hurry": {"source": "StarManHurry.mp3", "loop": 6.78}
+}

@@ -1,0 +1,142 @@
+
+  {
+    "properties": {
+      "top_edge_enabled": false
+    },
+    "variations": {
+      "default": {
+        "Day": { "source": "Overworld.png" },
+        "Night": { "source": "OverworldNight.png" }
+      },
+
+      "Desert": {
+        "Day": { "source": "Desert.png" },
+        "Night": { "source": "DesertNight.png" }
+      },
+
+      "Underground": {
+        "SMB1": {
+          "World1": {
+            "source": "Underground.png"
+          },
+          "World2": {
+            "source": "UndergroundDesert.png"
+          },
+          "World5": {
+            "source": "UndergroundDesert.png"
+          }
+        },
+        "SMBLL": {
+          "World1": {
+            "source": "Undergroundll.png"
+          },
+          "World2": {
+            "source": "UndergroundDesert.png"
+          },
+          "World5": {
+            "source": "UndergroundDesert.png"
+          },
+          "World13": {
+            "source": "VolcanoUnderground.png",
+            "animations": {
+              "default": {
+                "frames": [
+                  [ 0, 0, 512, 512 ],
+                  [ 512, 0, 512, 512 ],
+                  [ 1024, 0, 512, 512 ],
+                  [ 1536, 0, 512, 512 ],
+                  [ 2048, 0, 512, 512 ],
+                  [ 2560, 0, 512, 512 ],
+                  [ 3072, 0, 512, 512 ],
+                  [ 3584, 0, 512, 512 ]
+                ],
+                "speed": 7.0,
+                "loop": true
+
+              }
+            }
+          }
+        },
+        "SMBS": {
+          "World1": {
+            "source": "Underground.png"
+          },
+          "World2": {
+            "source": "Underground.png"
+          },
+          "World5": {
+            "source": "Underground.png"
+          }
+        }
+      },
+
+      "Castle": {
+        "World1": { "source": "Castle.png" },
+        "World8": { "source": "FinalCastle.png" },
+        "World13": { "source": "FinalCastle.png" }
+      },
+      "GhostHouse": { "source": "GhostHouse.png" },
+
+      "Snow": {
+        "Day": { "source": "Snow.png" },
+        "Night": { "source": "SnowNight.png" }
+      },
+
+      "Jungle": {
+        "Day": { "source": "JungleDay.png" },
+        "Night": { "source": "Jungle.png" }
+
+      },
+
+      "Autumn": {
+        "Day": { "source": "Autumn.png" },
+        "Night": { "source": "AutumnNight.png" }
+      },
+
+      "Pipeland": {
+        "Day": { "source": "Pipeland.png" },
+        "Night": { "source": "PipelandNight.png" }
+      },
+
+      "Volcano": {
+        "Day": { "source": "Volcano.png" },
+        "Night": { "source": "VolcanoNight.png" }
+      },
+      "Mountain": {
+        "Day": { "source": "Mountain.png" },
+        "Night": { "source": "MountainNight.png" }
+      },
+
+      "Skyland": {
+        "Day": { "source": "Sky.png" },
+        "Night": { "source": "SkyNight.png" }
+      },
+      "Bonus": {
+        "source": "Bonus.png"
+      },
+
+      "Beach": {
+        "Day": { "source": "BeachHills.png" },
+        "Night": { "source": "BeachHillsNight.png" }
+      },
+
+      "Underwater": {
+        "Day": { "source": "Underwater.png" },
+        "Night": { "source": "UnderwaterNight.png" }
+      },
+
+      "Garden": {
+        "Day": { "source": "GardenHill.png" },
+        "Night": { "source": "GardenNight.png" }
+      },
+
+      "CastleWater": {
+        "Day": { "source": "CastleWater.png" },
+        "Night": { "source": "CastleWaterNight.png" }
+      },
+
+      "Space": { "source": "Space.png" },
+
+      "Airship": { "link": "Skyland" }
+    }
+    }

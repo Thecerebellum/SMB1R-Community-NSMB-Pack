@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "Volcano.mp3",
+        "loop": 9.04
+    },
+    "Hurry": {
+        "source": "VolcanoHurry.mp3",
+        "loop": 7.22
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"properties": {
+		"can_mushroom_tint": false
+	},
+	"variations": {
+		"default": {
+			"SMB1": {
+				"Day": {"source": "Mushrooms.png"},
+				"Night": {"source": "MushroomsNight.png"}
+			}
+		},
+		"Snow": {
+			"SMB1": {
+				"Day": {"source": "SnowMushrooms.png"},
+				"Night": {"source": "SnowMushroomsNight.png"}
+			}
+		},
+		"Volcano": {
+			"SMB1": {"source": "VolcanoMushrooms.png"},
+			"SMBLL": {"source": "VolcanoMushroomsLL.png"}
+		},
+		"Airship": {
+			"SMB1": {
+				"Day": {"source": "AirshipMushrooms.png"},
+				"Night": {"source": "AirshipMushroomsNight.png"}
+			}
+		},
+	}
+}

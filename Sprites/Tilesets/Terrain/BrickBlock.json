@@ -1,0 +1,86 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 0, 0, 16, 16 ],
+				[ 16, 0, 16, 16 ],
+				[ 32, 0, 16, 16 ],
+				[ 48, 0, 16, 16 ]
+			],
+			"speed": 12.0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "BrickBlock.png",
+			"rect": [ 0, 0, 64, 16 ]
+		},
+		"Snow": { "link": "Castle" },
+		"Underground": {
+			"SMB1": {
+				"World1": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 16, 64, 16 ]
+				},
+				"World2": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 0, 64, 16 ]
+				},
+				"World5": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 0, 64, 16 ]
+				}
+			},
+			"SMBLL": {
+				"World1": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 16, 64, 16 ]
+				},
+				"World2": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 0, 64, 16 ]
+				},
+				"World5": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 0, 64, 16 ]
+				},
+				"World13": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 48, 64, 16 ]
+				}
+			},
+			"SMBS": {
+				"World1": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 16, 64, 16 ]
+				},
+				"World2": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 16, 64, 16 ]
+				},
+				"World5": {
+					"source": "BrickBlock.png",
+					"rect": [ 0, 16, 64, 16 ]
+				}
+			}
+		},
+		"GhostHouse": { "link": "Castle" },
+		"Castle": {
+			"source": "BrickBlock.png",
+			"rect": [ 0, 32, 64, 16 ]
+		},
+		"Volcano": {
+			"source": "BrickBlock.png",
+			"rect": [ 0, 48, 64, 16 ]
+		}
+	}
+}

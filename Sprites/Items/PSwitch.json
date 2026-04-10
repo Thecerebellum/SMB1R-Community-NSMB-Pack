@@ -1,0 +1,46 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [
+				[
+					0.0,
+					0.0,
+					16.0,
+					19.0
+			
+				]
+			],
+			"speed": 10.0,
+			"loop": true
+		},
+		"Pressed": {
+			"frames": [
+				[
+					16.0,
+					0.0,
+					16.0,
+					19.0
+				],
+				[
+					32.0,
+					0.0,
+					16.0,
+					19.0
+				]
+			],
+			"speed": 15.0,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {
+			"source": "PSwitch.png",
+			"rect": [
+				0.0,
+				0.0,
+				64.0,
+				19.0
+			]
+		}
+	}
+}
