@@ -68,7 +68,7 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Desert", "time": "Day", "music": "Desert"},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Day"}
+							"RoomType:CoinHeaven": {"theme": "sky", "time": "Day"}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
@@ -82,7 +82,7 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Snow", "time": "Day", "music": "Snow", "particles": 1},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Day"}
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
 						},
 						"Level2": {"theme": "Snow", "time": "Day", "music": "Snow", "particles": 1},
 						"Level3": {"theme": "Snow", "time": "Day", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
@@ -113,7 +113,7 @@
 						"Level2": {
 							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
 							"RoomType:BonusRoom": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Night"}
+							"RoomType:CoinHeaven": {"theme": "sky", "time": "Night"}
 						},
 						"Level3": {"theme": "Desert", "time": "Night", "music": "Desert", "extra_bgm": "Athletic"},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
@@ -126,7 +126,7 @@
 								"default": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
 								"Underwater": {"theme": "Underwater", "time": "Night", "music": "Underwater"}
 							},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Night"}
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Night"}
 						},
 						"Level3": {"theme": "Snow", "time": "Night", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
@@ -187,7 +187,7 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Desert", "time": "Day", "music": "Desert", "liquid": 1},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Day"}
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Desert", "time": "Day", "music": "Desert"},
@@ -200,7 +200,7 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Snow", "time": "Day", "music": "Snow", "particles": 1},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day"},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Day"},
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"},
 							"comment": "This level has two bonus rooms, but only one plays the Bonus theme. They have no unique variations."
 						},
 						"Level2": {
@@ -215,7 +215,7 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Jungle", "time": "Day", "music": "Jungle", "particles": 2},
 							"RoomType:BonusRoom": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
-							"RoomType:CoinHeaven": {"theme": "Jungle", "time": "Day"}
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Jungle", "time": "Day", "music": "Jungle", "particles": 2},
@@ -228,12 +228,12 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Night"}
+							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Night"}
 						},
 						"Level2": {
 							"RoomType:Default": {
 								"default": {"theme": "Desert", "time": "Night", "music": "Desert", "extra_bgm": "Athletic"},
-								"Underground": {"theme": "Underground", "time": "Night", "music": "Underground"}
+								"Underground": {"theme": "Underground", "time": "Day", "music": "Underground"}
 							},
 							"RoomType:PipeCutscene": {"theme": "Desert", "time": "Night", "music": "Desert"},
 							"RoomType:SublevelExit": {"link": "RoomType:PipeCutscene"}
@@ -307,7 +307,10 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Autumn", "time": "Day", "music": "Autumn", "particles": 2},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Autumn", "time": "Day"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Day"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underground", "time": "Day", "music": "Underground"},
@@ -320,7 +323,10 @@
 					"World11": {
 						"Level1": {
 							"RoomType:Default": {"theme": "Pipeland", "time": "Day", "music": "Pipeland", "liquid": 1},
-							"RoomType:CoinHeaven": {"theme": "Pipeland", "time": "Day"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Day"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
@@ -351,7 +357,7 @@
 						"Level2": {
 							"RoomType:Default": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Day", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Volcano", "time": "Day"}
+							"RoomType:CoinHeaven": {"theme": "Volcano", "time": "Night"}
 						},
 						"Level3": {"theme": "Volcano", "time": "Day", "music": "Volcano", "particles": 3, "liquid": 2},
 						"Level4": {
@@ -383,7 +389,10 @@
 					"World2": {
 						"Level1": {
 							"RoomType:Default": {"theme": "Garden", "time": "Day", "music": "Garden"},
-							"RoomType:CoinHeaven": {"theme": "Garden", "time": "Day"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Day"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underwater", "time": "Day", "music": "Underwater"},
@@ -418,7 +427,10 @@
 					"World4": {
 						"Level1": {
 							"RoomType:Default": {"theme": "Mountain", "time": "Day", "music": "Mountain"},
-							"RoomType:CoinHeaven": {"theme": "Mountain", "time": "Day"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Day"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {
@@ -429,7 +441,10 @@
 						},
 						"Level3": {
 							"RoomType:Default": {"theme": "Mountain", "time": "Day", "music": "Mountain", "extra_bgm": "Athletic"},
-							"RoomType:CoinHeaven": {"theme": "Mountain", "time": "Day"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Day"
+							}
 						},
 						"Level4": {"theme": "Castle", "time": "Day", "music": "Castle", "particles": 3}
 					},
@@ -514,7 +529,10 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Night"
+							}
 						},
 						"Level2": {
 							"RoomType:Default": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
@@ -528,7 +546,10 @@
 						"Level1": {
 							"RoomType:Default": {"theme": "Snow", "time": "Night", "music": "Snow", "particles": 1},
 							"RoomType:BonusRoom": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Night"
+							}
 						},
 						"Level2": {"theme": "Snow", "time": "Night", "music": "Snow", "particles": 1},
 						"Level3": {"theme": "Snow", "time": "Night", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
@@ -559,7 +580,10 @@
 						"Level2": {
 							"RoomType:Default": {"theme": "Desert", "time": "Night", "music": "Desert"},
 							"RoomType:BonusRoom": {"theme": "Underwater", "time": "Night", "music": "Underwater"},
-							"RoomType:CoinHeaven": {"theme": "Desert", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Night"
+							}
 						},
 						"Level3": {"theme": "Desert", "time": "Night", "music": "Desert", "extra_bgm": "Athletic"},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
@@ -572,7 +596,10 @@
 								"default": {"theme": "Underground", "time": "Night", "music": "Underground", "extra_bgm": "Bonus"},
 								"Underwater": {"theme": "Underwater", "time": "Night", "music": "Underwater"}
 							},
-							"RoomType:CoinHeaven": {"theme": "Snow", "time": "Night"}
+							"RoomType:CoinHeaven": {
+								"theme": "Skyland",
+								"time": "Night"
+							}
 						},
 						"Level3": {"theme": "Snow", "time": "Night", "music": "Snow", "extra_bgm": "Athletic", "particles": 1},
 						"Level4": {"theme": "Castle", "time": "Night", "music": "Castle", "particles": 3}
