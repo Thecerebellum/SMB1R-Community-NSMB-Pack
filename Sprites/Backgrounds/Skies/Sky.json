@@ -11,7 +11,7 @@
 				"properties": { "sky_scroll_speed": 0 }
 			},
 			"Overworld": {
-				"MainRoom": { "source": "OverworldSky.png" },
+				"Level1": { "source": "OverworldSky.png" },
 				"CoinHeaven": { "source": "DaySky.png" },
 				"Level3": { "source": "AthleticSky.png" }
 			},
@@ -191,7 +191,7 @@
 				}
 			},
 			"Overworld": {
-				"MainRoom": { "source": "OverworldNight.png" },
+				"Level1": { "source": "OverworldNight.png" },
 				"CoinHeaven": { "source": "NightStars.png" }
 			},
 			"CastleWater": {
