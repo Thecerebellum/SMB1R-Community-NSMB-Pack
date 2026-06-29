@@ -195,6 +195,7 @@
 				"CoinHeaven": { "source": "NightStars.png" }
 			},
 			"CastleWater": {
+
 				"source": "CastleWaterNight.png",
 				"properties": { "sky_scroll_speed": 0 },
 				"animations": {
@@ -234,7 +235,9 @@
 				}
 			},
 			"Castle": {
-				"source": "CastleSky.png",
+				"World1": { "source": "CastleSky.png" },
+				"World8": { "source": "FinalCastleSky.png" },
+				"World13": { "source": "FinalCastleSky.png" },
 				"properties": { "sky_scroll_speed": 0 },
 				"animations": {
 					"default": {
