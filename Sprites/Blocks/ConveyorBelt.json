@@ -1,6 +1,5 @@
 {
 	"variations": {
-		"SMB1": {"source": "ConveyorBelt.png"},
-		"SMBS": {"source": "ConveyorBeltSpecial.png"}
+		"SMB1": {"source": "ConveyorBelt.png"}
 	}
 }
