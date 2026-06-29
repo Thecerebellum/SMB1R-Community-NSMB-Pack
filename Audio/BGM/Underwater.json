@@ -1,6 +1,9 @@
 {
 	"variations": {
 		"World1": { "source": "Underwater.bgm" },
-		"World8": { "source": "UnderwaterCastle.bgm" }
+		"World8": {
+			"Level1": { "source": "Underwater.bgm" },
+			"Level4": { "source": "UnderwaterCastle.bgm" }
+		}
 	}
 }
