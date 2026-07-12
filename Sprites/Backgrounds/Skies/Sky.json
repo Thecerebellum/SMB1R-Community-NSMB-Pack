@@ -7,7 +7,7 @@
 	"variations": {
 		"Day": {
 			"default": {
-				"source": "DaySky.png",
+				"source": "daySky.png",
 				"properties": { "sky_scroll_speed": 0 }
 			},
 			"Overworld": {
@@ -16,7 +16,10 @@
 				"Level3": { "source": "AthleticSky.png" }
 			},
 			"Pipeland": {
-				"source": "DaySky.png"
+				"source": "PipeLandSky.png"
+			},
+			"Garden": {
+				"source": "GardenSky.png"
 			},
 			"Skyland": {
 				"source": "DaySky.png"
@@ -24,9 +27,6 @@
 			"Airship": {
 				"source": "DaySky.png"
 			},
-			"Garden": {
-				"source": "GardenSky.png"
-			},	
 			"Underwater": {
 				"source": "UnderwaterSky.png"
 			},
@@ -103,10 +103,10 @@
 								],
 								"speed": 7.0,
 								"loop": true
-							
+
+							}
 						}
 					}
-				}
 				},
 				"SMBS": {
 					"World1": {
@@ -198,6 +198,7 @@
 				"CoinHeaven": { "source": "NightStars.png" }
 			},
 			"CastleWater": {
+
 				"source": "CastleWaterNight.png",
 				"properties": { "sky_scroll_speed": 0 },
 				"animations": {
@@ -237,7 +238,9 @@
 				}
 			},
 			"Castle": {
-				"source": "CastleSky.png",
+				"World1": { "source": "CastleSky.png" },
+				"World8": { "source": "FinalCastleSky.png" },
+				"World13": { "source": "FinalCastleSky.png" },
 				"properties": { "sky_scroll_speed": 0 },
 				"animations": {
 					"default": {
