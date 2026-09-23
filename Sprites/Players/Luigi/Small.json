@@ -679,6 +679,24 @@
       "speed": 24.0,
       "loop": false
     },
+    "FlagSlide": {
+      "frames": [
+        [
+          0.0,
+          624.0,
+          32.0,
+          48.0
+        ],
+        [
+          32.0,
+          624.0,
+          32.0,
+          48.0
+        ]
+      ],
+      "speed": 24.0,
+      "loop": false
+    },
     "DieFreeze": {
       "frames": [
         [

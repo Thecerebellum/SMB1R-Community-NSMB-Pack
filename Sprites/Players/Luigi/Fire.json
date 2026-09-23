@@ -25,6 +25,24 @@
       "speed": 30.0,
       "loop": false
     },
+    "FlagSlide": {
+      "frames": [
+        [
+          256.0,
+          816.0,
+          32.0,
+          48.0
+        ],
+        [
+          288.0,
+          816.0,
+          32.0,
+          48.0
+        ]
+      ],
+      "speed": 5.0,
+      "loop": false
+    },
     "Climb": {
       "frames": [
         [
