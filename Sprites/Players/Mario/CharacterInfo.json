@@ -10,7 +10,7 @@
 				"SPIN_JUMP_SFX": "shell_spin",
 				"DASH_START_SFX": "power_up",
 				"DASH_START_LOOPS": true,
-				"DASH_SFX": "shell_spin",
+				"DASH_SFX": "cannon",
 				"AIR_DASH_SFX": "cannon",
 				"POWER_SQUAT_READY_SFX": "bumper",
 				"POWER_SQUAT_READY_LOOPS": true,
