@@ -1,0 +1,12 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 24, 24]],
+			"speed": 0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"default": {"source": "FireIcon.png"}
+	}
+}
