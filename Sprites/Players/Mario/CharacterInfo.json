@@ -5,6 +5,19 @@
 	"physics_plus": {
 		"MOVESET_COSMETIC_PARAMETERS": {
 			"Default": {
+				"CROSSOVER_ICON": "HUD/Icon.json"
+			},
+			"Small": {
+				"CROSSOVER_ICON": "HUD/SmallIcon.json"
+			},
+			"Big": {
+				"CROSSOVER_ICON": "HUD/BigIcon.json"
+			},
+			"Fire": {
+				"CROSSOVER_ICON": "HUD/FireIcon.json"
+			},
+			"Superball": {
+				"CROSSOVER_ICON": "HUD/SuperballIcon.json",
 				"DOUBLE_JUMP_SFX": "big_jump",
 				"DOUBLE_JUMP_PITCH": 1.35,
 				"SPIN_JUMP_SFX": "shell_spin",
