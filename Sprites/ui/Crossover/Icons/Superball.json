@@ -1,0 +1,8 @@
+{
+	"variations": {
+		"default": {
+			"source": "Superball.png",
+			"rect": [0, 0, 8, 8]
+		}
+	}
+}
