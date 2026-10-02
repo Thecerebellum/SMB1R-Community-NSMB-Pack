@@ -1927,7 +1927,7 @@
 			"speed": 30.0,
 			"loop": false
 		},
-		"Walk": {
+		"Jog": {
 			"frames": [
 				[
 					1.0,
