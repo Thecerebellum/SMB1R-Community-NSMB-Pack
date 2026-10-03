@@ -25,10 +25,6 @@
 			"SMB1": {
 				"Day": { "source": "JungleTrees.png" },
 				"Night": { "source": "JungleNightTrees.png" }
-			},
-			"SMBLL": {
-				"Day": { "source": "JungleTreesLL.png" },
-				"Night": { "source": "JungleNightTreesLL.png" }
 			}
 		},
 		"Snow": {
