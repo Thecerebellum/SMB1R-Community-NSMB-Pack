@@ -1,5 +1,6 @@
 {
 	"variations": {
-		"SMB1": {"source": "CloudOverlay.png"}
+		"SMB1": { "source": "CloudOverlay.png" },
+		"GhostHouse": { "source": "Haze.png" }
 	}
 }
