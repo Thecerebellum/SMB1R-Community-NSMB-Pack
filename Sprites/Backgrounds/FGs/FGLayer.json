@@ -2,7 +2,7 @@
 	"variations": {
 		"default": { "source": "Default.png" },
 		"Underwater": { "source": "Water.png" },
-		"GhostHouse": { "source": "haze.png" }
+		"CastleWater": { "source": "Water.png" }
 
 	}
 }
