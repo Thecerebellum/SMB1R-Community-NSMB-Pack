@@ -14,8 +14,10 @@
 		},
 
 		"Jungle": {
-			"SMB1": { "source": "JungleBush.png" },
-			"SMBLL": { "source": "JungleBush.png" }
+			"SMB1": {
+				"Day": { "source": "JungleBush.png" },
+				"Night": { "source": "JungleBushNight.png" }
+			}
 		},
 		"Snow": {
 			"SMB1": {
@@ -27,6 +29,12 @@
 			"SMB1": {
 				"Day": { "source": "AutumnBush.png" },
 				"Night": { "source": "AutumnBushNight.png" }
+			}
+		},
+		"Underground": {
+			"SMB1": {
+				"Day": { "source": "UndergroundBush.png" },
+				"Night": { "source": "UndergroundBush.png" }
 			}
 		},
 		"Castle": {
