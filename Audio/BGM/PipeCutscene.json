@@ -1,13 +1,80 @@
 {
 	"variations": {
-		"default": {"source": "PipeCutscene.mp3"},
-		"Desert": {"source": "DesertPipeCutscene.mp3"},
-		"Snow": {"source": "SnowPipeCutscene.mp3"},
-		"Jungle": {"source": "JunglePipeCutscene.mp3"},
-		"Beach": {"source": "BeachPipeCutscene.mp3"},
-		"Garden": {"source": "GardenPipeCutscene.mp3"},
-		"Mountain": {"source": "MountainPipeCutscene.mp3"},
-		"Autumn": {"source": "AutumnPipeCutscene.mp3"},
-		"Pipeland": {"source": "PipeLandPipeCutscene.mp3"}
+		"default": {
+			"source": "PipeCutscene.mp3",
+			"loop": 10.58
+		},
+		"Underground": {
+			"source": "UndergroundPipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Desert": {
+			"source": "DesertPipeCutscene.mp3",
+			"loop": 9.60
+		},
+		"Snow": {
+			"source": "SnowPipeCutscene.mp3",
+			"loop": 4.80
+		},
+		"Jungle": {
+			"source": "JunglePipeCutscene.mp3",
+			"loop": 0
+		},
+		"Beach": {
+			"source": "BeachPipeCutscene.mp3",
+			"loop": 0
+		},
+		"Garden": {
+			"source": "GardenPipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Mountain": {
+			"source": "MountainPipeCutscene.mp3",
+			"loop": 0
+		},
+		"Skyland": {
+			"source": "SkyPipeCutscene.mp3",
+			"loop": 0.0
+		},
+		"Autumn": {
+			"source": "AutumnPipeCutscene.mp3",
+			"loop": 0
+		},
+		"Pipeland": {
+			"source": "PipeLandPipeCutscene.mp3",
+			"loop": 0
+		},
+		"Space": {
+			"source": "SpacePipeCutscene.mp3",
+			"loop": 0
+		},
+		"Underwater": {
+			"source": "UnderwaterPipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Volcano": {
+			"source": "VolcanoPipeCutscene.mp3",
+			"loop": 0
+		},
+		"GhostHouse": {
+			"source": "GhostHousePipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Castle": {
+			"source": "CastlePipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"CastleWater": {
+			"source": "UnderwaterCastlePipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Airship": {
+			"source": "AirshipPipeCutscene.mp3",
+			"loop": -1.0
+		},
+		"Bonus": {
+			"source": "BonusPipeCutscene.mp3",
+			"loop": -1.0
+		}
 	}
 }
