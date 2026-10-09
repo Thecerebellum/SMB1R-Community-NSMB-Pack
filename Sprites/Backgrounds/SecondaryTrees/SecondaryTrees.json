@@ -27,6 +27,12 @@
 				"Night": { "source": "JungleNightTrees.png" }
 			}
 		},
+		"CastleWater": {
+			"SMB1": {
+				"Day": { "source": "CastleWater.png" },
+				"Night": { "source": "CastleWaterNight.png" }
+			}
+		},
 		"Snow": {
 			"SMB1": {
 				"Day": { "source": "SnowTrees.png" },
@@ -47,29 +53,23 @@
 		},
 		"Castle": {
 			"SMB1": {
-				"Day": { "source": "CastleTrees.png" },
-				"Night": { "source": "CastleNightTrees.png" }
+				"Day": { "source": "Castle.png" },
+				"Night": { "source": "Castle.png" }
 			}
 		},
 		"Space": {
 			"SMB1": {
 				"Day": { "source": "SpaceTrees.png" },
-				"Night": { "source": "SpaceNightTrees.png" }
+				"Night": { "source": "SpaceTrees.png" }
 			}
 		},
 		"Underground": {
 			"SMB1": { "source": "UndergroundTrees.png" }
 		},
-		"Underwater": {
-			"SMB1": {
-				"Day": { "source": "UnderwaterTrees.png" },
-				"Night": { "source": "UnderwaterNightTrees.png" }
-			}
-		},
 		"Volcano": {
 			"SMB1": {
 				"Day": { "source": "VolcanoTrees.png" },
-				"Night": { "source": "VolcanoNightTrees.png" }
+				"Night": { "source": "VolcanoTreesNight.png" }
 			}
 		}
 	}
