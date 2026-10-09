@@ -12,11 +12,22 @@
 				"Night": { "source": "SpaceBush.png" }
 			}
 		},
-
 		"Jungle": {
 			"SMB1": {
 				"Day": { "source": "JungleBush.png" },
 				"Night": { "source": "JungleBushNight.png" }
+			}
+		},
+		"Underwater": {
+			"SMB1": {
+				"Day": { "source": "UnderwaterBush.png" },
+				"Night": { "source": "UnderwaterBushNight.png" }
+			}
+		},
+		"CastleWater": {
+			"SMB1": {
+				"Day": { "source": "CastleWater.png" },
+				"Night": { "source": "CastleWaterNight.png" }
 			}
 		},
 		"Snow": {
@@ -37,10 +48,35 @@
 				"Night": { "source": "UndergroundBush.png" }
 			}
 		},
+		"Skyland": {
+			"SMB1": {
+				"Day": { "source": "SkyBush.png" },
+				"Night": { "source": "SkyBushNight.png" }
+			}
+		},
 		"Castle": {
 			"SMB1": {
 				"Day": { "source": "CastleBush.png" },
 				"Night": { "source": "CastleBush.png" }
+			}
+		},
+		"Volcano": {
+			"source": "Volcano.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[ 0, 0, 512, 512 ],
+						[ 512, 0, 512, 512 ],
+						[ 1024, 0, 512, 512 ],
+						[ 1536, 0, 512, 512 ],
+						[ 2048, 0, 512, 512 ],
+						[ 2560, 0, 512, 512 ],
+						[ 3072, 0, 512, 512 ],
+						[ 3584, 0, 512, 512 ]
+					],
+					"speed": 10,
+					"loop": true
+				}
 			}
 		},
 		"Airship": {
