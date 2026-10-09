@@ -5,25 +5,59 @@
 	"variations": {
 		"default": {
 			"SMB1": {
-				"Day": {"source": "Mushrooms.png"},
-				"Night": {"source": "MushroomsNight.png"}
+				"Day": { "source": "Mushrooms.png" },
+				"Night": { "source": "MushroomsNight.png" }
+			}
+		},
+		"Volcano": {
+			"source": "VolcanoMushrooms.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[ 0, 0, 512, 512 ],
+						[ 512, 0, 512, 512 ],
+						[ 1024, 0, 512, 512 ],
+						[ 1536, 0, 512, 512 ],
+						[ 2048, 0, 512, 512 ],
+						[ 2560, 0, 512, 512 ],
+						[ 3072, 0, 512, 512 ],
+						[ 3584, 0, 512, 512 ]
+					],
+					"speed": 10,
+					"loop": true
+				}
 			}
 		},
 		"Snow": {
 			"SMB1": {
-				"Day": {"source": "SnowMushrooms.png"},
-				"Night": {"source": "SnowMushroomsNight.png"}
+				"Day": { "source": "SnowMushrooms.png" },
+				"Night": { "source": "SnowMushroomsNight.png" }
 			}
 		},
-		"Volcano": {
-			"SMB1": {"source": "VolcanoMushrooms.png"},
-			"SMBLL": {"source": "VolcanoMushroomsLL.png"}
+		"Castle": {
+			"source": "Castle.png",
+			"animations": {
+				"default": {
+					"frames": [
+						[ 0, 0, 512, 512 ],
+						[ 512, 0, 512, 512 ],
+						[ 1024, 0, 512, 512 ],
+						[ 1536, 0, 512, 512 ],
+						[ 2048, 0, 512, 512 ],
+						[ 2560, 0, 512, 512 ],
+						[ 3072, 0, 512, 512 ],
+						[ 3584, 0, 512, 512 ]
+					],
+					"speed": 10.0,
+					"loop": true
+				}
+			}
 		},
 		"Airship": {
 			"SMB1": {
-				"Day": {"source": "AirshipMushrooms.png"},
-				"Night": {"source": "AirshipMushroomsNight.png"}
+				"Day": { "source": "AirshipMushrooms.png" },
+				"Night": { "source": "AirshipMushroomsNight.png" }
 			}
-		},
+		}
 	}
-}
+	}
