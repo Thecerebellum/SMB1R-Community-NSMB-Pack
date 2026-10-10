@@ -14,10 +14,10 @@
 			},
 			"Night": {
 				"Level1": {
-					"source": "TreesNight.png"
+					"source": "NightTrees.png"
 				},
 				"Level3": {
-					"source": "TreesNight.png"
+					"source": "NightTrees.png"
 				}
 			}
 		},
