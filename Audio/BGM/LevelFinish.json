@@ -4,6 +4,12 @@
 		"Character:Mario": { "source": "LevelCompleteMario.mp3" },
 		"Character:Luigi": { "source": "LevelCompleteLuigi.mp3" },
 		"Character:Toad": { "source": "LevelCompleteToad.mp3" },
-		"Character:Toadette": { "source": "LevelCompleteToadette.mp3" }
+		"Character:Yellow Toad": { "source": "LevelCompleteToad.mp3" },
+		"Character:Toadette": { "source": "LevelCompleteToadette.mp3" },
+		"Character:Wario_SYXGMS": { "source": "LevelCompleteWario.mp3" },
+		"Character:Wega": { "source": "LevelCompleteWega.mp3" },
+		"Character:SM64 Mario": { "source": "LevelCompletemario64.mp3" },
+		"Character:Golden Sigma": { "source": "LevelCompleteGoldenSigma.mp3" },
+		"Character:Tori's Sonic the Hedgehog": { "source": "LevelCompleteSonic.mp3" }
 	}
 }
