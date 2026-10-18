@@ -1,14 +1,38 @@
-
-  {
-    "properties": {
-      "top_edge_enabled": false
+{
+  "properties": {
+    "top_edge_enabled": false
+  },
+  "variations": {
+    "default": {
+      "Overworld": {
+        "SMB1": {
+          "World1": {
+            "Level2": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "OverworldNight.png" }
+            },
+            "Level1": {
+              "Day": { "source": "OverworldL1.png" },
+              "Night": { "source": "Overworldl1ann.png" }
+            },
+            "Level3": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "OverworldNight.png" }
+            },
+            "Level4": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "OverworldNight.png" }
+            }
+          },
+          "World8": {
+            "Level1": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "OverworldNight.png" }
+            }
+          }
+        }
+      }
     },
-    "variations": {
-      "default": {
-        "Day": { "source": "Overworld.png" },
-        "Night": { "source": "OverworldNight.png" }
-      },
-
       "Desert": {
         "Day": { "source": "Desert.png" },
         "Night": { "source": "DesertNight.png" }
@@ -150,66 +174,66 @@
         }
       },
 
-        "Snow": {
-          "Day": { "source": "Snow.png" },
-          "Night": { "source": "SnowNight.png" }
-        },
+      "Snow": {
+        "Day": { "source": "Snow.png" },
+        "Night": { "source": "SnowNight.png" }
+      },
 
-        "Jungle": {
-          "Day": { "source": "JungleDay.png" },
-          "Night": { "source": "Jungle.png" }
+      "Jungle": {
+        "Day": { "source": "JungleDay.png" },
+        "Night": { "source": "Jungle.png" }
 
-        },
+      },
 
-        "Autumn": {
-          "Day": { "source": "Autumn.png" },
-          "Night": { "source": "AutumnNight.png" }
-        },
+      "Autumn": {
+        "Day": { "source": "Autumn.png" },
+        "Night": { "source": "AutumnNight.png" }
+      },
 
-        "Pipeland": {
-          "Day": { "source": "Pipeland.png" },
-          "Night": { "source": "PipelandNight.png" }
-        },
+      "Pipeland": {
+        "Day": { "source": "Pipeland.png" },
+        "Night": { "source": "PipelandNight.png" }
+      },
 
-        "Volcano": {
-          "Day": { "source": "Volcano.png" },
-          "Night": { "source": "VolcanoNight.png" }
-        },
-        "Mountain": {
-          "Day": { "source": "Mountain.png" },
-          "Night": { "source": "MountainNight.png" }
-        },
+      "Volcano": {
+        "Day": { "source": "Volcano.png" },
+        "Night": { "source": "VolcanoNight.png" }
+      },
+      "Mountain": {
+        "Day": { "source": "Mountain.png" },
+        "Night": { "source": "MountainNight.png" }
+      },
 
-        "Skyland": {
-          "Day": { "source": "Sky.png" },
-          "Night": { "source": "SkyNight.png" }
-        },
-        "Bonus": {
-          "source": "Bonus.png"
-        },
+      "Skyland": {
+        "Day": { "source": "Sky.png" },
+        "Night": { "source": "SkyNight.png" }
+      },
+      "Bonus": {
+        "source": "Bonus.png"
+      },
 
-        "Beach": {
-          "Day": { "source": "BeachHills.png" },
-          "Night": { "source": "BeachHillsNight.png" }
-        },
+      "Beach": {
+        "Day": { "source": "BeachHills.png" },
+        "Night": { "source": "BeachHillsNight.png" }
+      },
 
-        "Underwater": {
-          "Day": { "source": "Underwater.png" },
-          "Night": { "source": "UnderwaterNight.png" }
-        },
+      "Underwater": {
+        "Day": { "source": "Underwater.png" },
+        "Night": { "source": "UnderwaterNight.png" }
+      },
 
-        "Garden": {
-          "Day": { "source": "GardenHill.png" },
-          "Night": { "source": "GardenNight.png" }
-        },
+      "Garden": {
+        "Day": { "source": "GardenHill.png" },
+        "Night": { "source": "GardenNight.png" }
+      },
 
-        "CastleWater": {
-          "Day": { "source": "CastleWater.png" },
-          "Night": { "source": "CastleWaterNight.png" }
-        },
+      "CastleWater": {
+        "Day": { "source": "CastleWater.png" },
+        "Night": { "source": "CastleWaterNight.png" }
+      },
 
-        "Space": { "source": "Space.png" },
+      "Space": { "source": "Space.png" },
 
-        "Airship": { "link": "Skyland" }
-      }
+      "Airship": { "link": "Skyland" }
+    }
     }
