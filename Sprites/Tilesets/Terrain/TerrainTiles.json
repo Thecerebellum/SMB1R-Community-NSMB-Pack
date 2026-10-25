@@ -1,20 +1,30 @@
 {
   "variations": {
-    "default": {
-      "Day": {
-        "Level1": {
-          "source": "Overworld.png"
+    "Overworld": {
+      "SMB1": {
+        "World1": {
+          "Level1": {
+            "Day": { "source": "Overworld.png" },
+            "Night": { "source": "Overworld.png" }
+          },
+          "Level3": {
+            "Day": { "source": "Sky.png" },
+            "Night": { "source": "Sky.png" }
+          },
+          "Level4": {
+            "Day": { "source": "Overworld.png" },
+            "Night": { "source": "OverworldNight.png" }
+          }
         },
-        "Level3": {
-          "source": "Sky.png"
-        }
-      },
-      "Night": {
-        "Level1": {
-          "source": "Overworld.png"
-        },
-        "Level3": {
-          "source": "Overworld.png"
+        "World8": {
+          "Level1": {
+            "Day": { "source": "Overworld.png" },
+            "Night": { "source": "OverworldNight.png" }
+          },
+          "Level3": {
+            "Day": { "source": "OverworldNoCastle.png" },
+            "Night": { "source": "OverworldNoCastle.png" }
+          }
         }
       }
     },
