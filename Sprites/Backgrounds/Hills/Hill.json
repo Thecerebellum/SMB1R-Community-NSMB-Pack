@@ -31,8 +31,12 @@
           "Level1": {
             "Day": { "source": "Overworld.png" },
             "Night": { "source": "OverworldNight.png" }
+          },
+          "Level3": {
+            "Day": { "source": "CastleBush.png" },
+            "Night": { "source": "CastleBushNight.png" }
+          }
         }
-      }
     }
   },
   "Desert": {
