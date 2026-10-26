@@ -1,126 +1,120 @@
 {
   "variations": {
-    "Overworld": {
-      "SMB1": {
-        "World1": {
-          "Level1": {
-            "Day": { "source": "Overworld.png" },
-            "Night": { "source": "Overworld.png" }
+    "default": {
+      "Overworld": {
+        "SMB1": {
+          "World1": {
+            "Level1": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "OverworldNight.png" }
+            }
           },
-          "Level3": {
-            "Day": { "source": "Sky.png" },
-            "Night": { "source": "Sky.png" }
-          },
-          "Level4": {
-            "Day": { "source": "Overworld.png" },
-            "Night": { "source": "OverworldNight.png" }
-          }
-        },
-        "World8": {
-          "Level1": {
-            "Day": { "source": "Overworld.png" },
-            "Night": { "source": "OverworldNight.png" }
-          },
-          "Level3": {
-            "Day": { "source": "OverworldNoCastle.png" },
-            "Night": { "source": "OverworldNoCastle.png" }
+          "World8": {
+            "Level1": {
+              "Day": { "source": "Overworld.png" },
+              "Night": { "source": "Overworld.png" }
+            },
+            "Level3": {
+              "Day": { "source": "OverworldNoCastle.png" },
+              "Night": { "source": "OverworldNoCastle.png" }
+            }
           }
         }
-      }
-    },
-    "Underground": {
-      "SMB1": {
-        "World1": {
-          "source": "Underground.png"
+      },
+      "Underground": {
+        "SMB1": {
+          "World1": {
+            "source": "Underground.png"
+          },
+          "World2": {
+            "source": "UndergroundDesert.png"
+          },
+          "World5": {
+            "source": "UndergroundDesert.png"
+          }
         },
-        "World2": {
-          "source": "UndergroundDesert.png"
+        "SMBLL": {
+          "World1": {
+            "source": "Underground.png"
+          },
+          "World2": {
+            "source": "UndergroundDesert.png"
+          },
+          "World5": {
+            "source": "UndergroundDesert.png"
+          },
+          "World13": {
+            "source": "UndergroundVolcano.png"
+          }
         },
-        "World5": {
-          "source": "UndergroundDesert.png"
+        "SMBS": {
+          "World1": {
+            "source": "Underground.png"
+          },
+          "World2": {
+            "source": "Underground.png"
+          },
+          "World5": {
+            "source": "Underground.png"
+          }
         }
       },
-      "SMBLL": {
-        "World1": {
-          "source": "Underground.png"
+      "Desert": {
+        "Day": {
+          "Level1": {
+            "source": "Desert.png"
+          },
+          "Level3": {
+            "source": "DesertAthletic.png"
+          }
         },
-        "World2": {
-          "source": "UndergroundDesert.png"
-        },
-        "World5": {
-          "source": "UndergroundDesert.png"
-        },
-        "World13": {
-          "source": "UndergroundVolcano.png"
+        "Night": {
+          "Level1": {
+            "source": "Desert.png"
+          },
+          "Level3": {
+            "source": "DesertAthletic.png"
+          }
         }
       },
-      "SMBS": {
-        "World1": {
-          "source": "Underground.png"
-        },
-        "World2": {
-          "source": "Underground.png"
-        },
-        "World5": {
-          "source": "Underground.png"
-        }
-      }
-    },
-    "Desert": {
-      "Day": {
-        "Level1": {
-          "source": "Desert.png"
-        },
-        "Level3": {
-          "source": "DesertAthletic.png"
+      "Snow": {
+        "SMB1": {
+          "Day": { "source": "Snow.png" },
+          "Night": { "source": "Snow.png" }
         }
       },
-      "Night": {
-        "Level1": {
-          "source": "Desert.png"
+      "Jungle": { "source": "Jungle.png" },
+      "Beach": { "source": "Beach.png" },
+      "Garden": { "source": "Garden.png" },
+      "Mountain": {
+        "Day": {
+          "Level1": {
+            "source": "Mountain.png"
+          },
+          "Level3": {
+            "source": "Mountain.png"
+          }
         },
-        "Level3": {
-          "source": "DesertAthletic.png"
-        }
-      }
-    },
-    "Snow": {
-      "SMB1": {
-        "Day": { "source": "Snow.png" },
-        "Night": { "source": "Snow.png" }
-      }
-    },
-    "Jungle": { "source": "Jungle.png" },
-    "Beach": { "source": "Beach.png" },
-    "Garden": { "source": "Garden.png" },
-    "Mountain": {
-      "Day": {
-        "Level1": {
-          "source": "Mountain.png"
-        },
-        "Level3": {
-          "source": "Mountain.png"
+        "Night": {
+          "Level1": {
+            "source": "Mountain.png"
+          },
+          "Level3": {
+            "source": "Beach.png"
+          }
         }
       },
-      "Night": {
-        "Level1": {
-          "source": "Mountain.png"
-        },
-        "Level3": {
-          "source": "Beach.png"
-        }
-      }
-    },
-    "Skyland": { "source": "Sky.png" },
-    "Autumn": { "source": "Autumn.png" },
-    "Pipeland": { "source": "PipeLand.png" },
-    "Space": { "source": "Space.png" },
-    "Underwater": { "source": "Underwater.png" },
-    "Volcano": { "source": "Volcano.png" },
-    "GhostHouse": { "source": "GhostHouse.png" },
-    "Castle": { "source": "Castle.png" },
-    "CastleWater": { "source": "CastleWater.png" },
-    "Airship": { "source": "Airship.png" },
-    "Bonus": { "source": "Bonus.png" }
+      "Skyland": { "source": "Sky.png" },
+      "Autumn": { "source": "Autumn.png" },
+      "Pipeland": { "source": "PipeLand.png" },
+      "Space": { "source": "Space.png" },
+      "Underwater": { "source": "Underwater.png" },
+      "Volcano": { "source": "Volcano.png" },
+      "GhostHouse": { "source": "GhostHouse.png" },
+      "Castle": { "source": "Castle.png" },
+      "CastleWater": { "source": "CastleWater.png" },
+      "Airship": { "source": "Airship.png" },
+      "Bonus": { "source": "Bonus.png" }
+    }
   }
   }
