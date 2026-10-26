@@ -1,134 +1,13 @@
 {
 	"variations": {
-		"RoomType:Default": {
+		"RoomType:CoinHeaven": {
 			"GameMode:Default": {
 				"SMB1": {
-					"World2": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "sky", "time": "Day"}
-						}
+					"World1": {
+						"theme": "Sky"
 					},
-					"World3": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
-						}
-					},
-					"World5": {
-						"Level2": {
-							"RoomType:CoinHeaven": {"theme": "sky", "time": "Night"}
-						}
-					},
-					"World6": {
-						"Level2": {
-
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Night"}
-						}
-					}
-				},
-				"SMBLL": {
-					"World2": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
-						}
-					},
-					"World3": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
-						}
-					},
-					"World4": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Day"}
-
-						}
-					},
-					"World5": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Sky", "time": "Night"}
-						}
-					},
-					"World8": {
-						"Level3": {
-							"RoomType:CoinHeaven": {"theme": "Skyland", "time": "Night"}
-						}
-					},
-					"World10": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Day"
-							}
-						}
-					},
-					"World11": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Day"
-							}
-						}
-					},
-					"World12": {
-						"Level1": {
-							"RoomType:CoinHeaven": {"theme": "Skyland", "time": "Day"}
-						}
-					},
-					"World13": {
-						"Level2": {
-							"RoomType:CoinHeaven": {"theme": "Volcano", "time": "Night"}
-						}
-					}
-				},
-				"SMBS": {
-					"World2": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Day"
-							}
-						}
-					},
-					"World4": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Day"
-							}
-						}
-					}
-				},
-				"SMBANN": {
-					"World2": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Night"
-							}
-						}
-					},
-					"World3": {
-						"Level1": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Night"
-							}
-						}
-					},
-					"World5": {
-						"Level2": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Night"
-							}
-						}
-					},
-					"World6": {
-						"Level2": {
-							"RoomType:CoinHeaven": {
-								"theme": "Skyland",
-								"time": "Night"
-							}
-						}
+					"World9": {
+						"theme": "Space"
 					}
 				}
 			},
