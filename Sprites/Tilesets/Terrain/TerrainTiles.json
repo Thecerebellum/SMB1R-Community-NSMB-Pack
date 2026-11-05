@@ -6,7 +6,11 @@
           "World1": {
             "Level1": {
               "Day": { "source": "Overworld.png" },
-              "Night": { "source": "OverworldNight.png" }
+              "Night": { "source": "Overworld.png" }
+            },
+            "Level3": {
+              "Day": { "source": "Sky.png" },
+              "Night": { "source": "Sky.png" }
             }
           },
           "World8": {
