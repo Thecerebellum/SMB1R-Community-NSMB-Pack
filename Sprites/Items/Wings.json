@@ -25,9 +25,15 @@
 		}
 	},
 	"variations": {
-		"default": {
-			"source": "Wings.png",
-			"rect": [ 0, 0, 64, 16 ]
+		"Metadata:WingType": {
+			"Player": {
+				"source": "Wings.png",
+				"rect": [ 0, 0, 32, 16 ]
+			},
+			"Default": {
+				"source": "Wings.png",
+				"rect": [ 32, 32, 32, 16 ]
+			}
 		}
 	}
 }
