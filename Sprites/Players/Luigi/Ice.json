@@ -1555,6 +1555,7 @@
       "speed": 24.0,
       "loop": true
     },
+    "StarJumpFall": { "link": "StarJump" },
     "SwimIdle": {
       "frames": [
         [
